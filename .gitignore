@@ -1,4 +1,4 @@
-chess
-*.[ao]
-#*#
-*~
+/build/board.o
+/build/board_print_plain.o
+/build/main.o
+/bin/chessviz
