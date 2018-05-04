@@ -21,7 +21,7 @@ int coordinates(char i, int j, char i1, int j1) {
     }
 
     if (g != 4) {
-        printf("Ошибка ввода данных\n");
+        printf("Data entry error\n");
         return -1;
     }
     return 0;
