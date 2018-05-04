@@ -13,7 +13,7 @@ build/board_print_plain.o: src/board_print_plain.c
 	gcc -Wall -Werror -c src/board_print_plain.c -o build/board_print_plain.o
 
 bin/test: build/test.o build/board.o build/board_print_plain.o build/ctest.o
-	gcc -Wall build/test.o build/board.o build/board_print_plain.o build/ctest.o -o bin/test
+	gcc -Wall  build/test.o build/board.o build/board_print_plain.o build/ctest.o -o bin/test
 
 build/test.o: test/test.c
 	gcc -Wall -c test/test.c -o build/test.o -Ithirdparty -Isrc
